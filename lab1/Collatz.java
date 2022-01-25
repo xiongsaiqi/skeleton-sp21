@@ -8,7 +8,7 @@ public class Collatz {
         if(n % 2 == 0){
             return n/2;
         }
-        return 3 * n + 1;
+        return 3 * n - 1;
     }
 
     public static void main(String[] args) {
