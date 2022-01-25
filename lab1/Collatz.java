@@ -3,9 +3,9 @@
  */
 public class Collatz {
 
-    /** DO it and when n get even it returns n/2, when n get odd, it returns 3n + 1 */
+    /** Buggy implementation of nextNumber! */
     public static int nextNumber(int n) {
-         if (n  == 128) {
+        if (n  == 128) {
             return 1;
         } else if (n == 5) {
             return 3 * n + 1;
